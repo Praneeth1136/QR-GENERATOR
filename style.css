@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-family:sans-serif;
 }
-body{
-    background-color:"red";
+body{   
+    background:grey;
 }
 .container{
     width:400px;
@@ -21,6 +21,7 @@ body{
     font-weight:600;
     font-size:15px;
     margin-bottom:8px;
+    text-align:center;
 }
 .container input{
     width:100%;
@@ -30,6 +31,7 @@ body{
     margin:10px 0 20px;
     border-radius:10px;
     outline:0;
+    /* border:none; */
 }
 .container button{
     background-color:#494eea;
@@ -43,19 +45,27 @@ body{
     box-shadow:0 10px 10px rgba(0,0,0,0.1);
     font-weight:500;
     margin:20px 0;
+    opacity: 1;
+    transition: opacity 0.3s ease;    
+}
+.container button:hover{
+    opacity:0.8;
+}
+.container button:active{
+    opacity:0.6;
 }
 #imgBox{
     width:200px;
     max-height:0;
     border-radius:5px;
     overflow:hidden;
-    transition: max-height 1s;
+    transition:max-height 1s;
 }
 #imgBox img{
     width:100%;
     padding:10px;
 }
-#img-box.show-image{
+#imgBox.show-image{
     max-height:300px;
     margin:10px auto;
     border: 1px solid #d1d1d1;
