@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color:"red";
+}
+.container{
+    width:400px;
+    padding:25px 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    background-color:grey;
+}
