@@ -23,7 +23,7 @@ Just type in any **text** or **URL**, hit the **Generate** button, and you’ll 
 
 ## 📸 Demo
 1. Enter your text or URL  
-2. Click **Generate QR Code**  
+2. Click **Generate QR Code**
 3. Scan the QR code with your phone 📱  
 
 ---
