@@ -6,7 +6,7 @@ Just type in any **text** or **URL**, hit the **Generate** button, and you’ll 
 ---
 
 ## 🚀 Features
-- Generate QR codes from text or links  
+- Generate QR codes from text orr links  
 - Clean and minimal UI  
 - Error shake effect when input is empty  
 - Smooth animations for showing the QR image  
